@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0 62px 0;
+}
+
+a {
+    margin: 0 23px;
+    color: #bab9b9;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+}
+
+.lol {
+    
+}
+
+ul {
+    display: flex;
+    color: #808080;
+    font-size: 18px;
+}
+
+.nav-link{
+    transition: 300ms color;
+}
+
+.nav-link:hover{
+    color: #4581b7;
+    border-bottom: 1px solid #4581b7;
+}
+
+.logo {
+    margin-top: 50px;
+    margin-left: 496px;
+}
+
+.item-left {
+    background: #f0f0f0;
+    width: 730px;
+    height: 500px;
+    color: #808080;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 41px;
+    padding-right: 95px;
+    margin-right: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.item-right {
+    background: #f0f0f0;
+    width: 350px;
+    height: 500px;
+    color: #808080;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 41px;
+    padding-right: 54px;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    color: #4581b7;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.item {
+    background: #f0f0f0;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    color: #808080;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.item-right2 {
+    display: flex;
+    display: inline;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box2 {
+    display: flex;
+    padding: 16px 40px 14px 41px;
+    justify-content: space-between;
+    background: #f0f0f0;
+    color: #808080
+}
+
+.bottom {
+    margin-bottom: 14px;
+    padding-left: 41px;
+}
+
+.box {
+    display: flex;
+    margin: 33px 0 30px 0;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+p {
+    margin-top: 25px;
+}
+
+.num {
+    font-size: 25px;
+}
